@@ -1,19 +1,48 @@
+body{
+  height: 100%;
+}
+li{
+  line-height: 2;
+  color: #17223b;
+  font-family:'Signika', sans-serif;
+  font-size: 20px;
+}
+h1{
+  padding-left: 0.4rem;
+  color: #0098ff;
+}
+.container-fluid p{
+  padding-left: 0.6rem;
+  text-align: justify;
+  color: #17223b;
+  font-family: 'Signika', sans-serif;
+  font-size: 20px;
+}
 .left-container{
+  display: block;
+  overflow: auto;
   height: 100vh;
   background-color: #bb1542;
 }
 
 .right-container{
+  display: block;
+  overflow: auto;
   height: 100vh;
   background-color: #daf1f9;
+  display: block;
 }
 
+nav{
+  margin-top: 2rem;
+  padding-left: 0px;
+}
 .nav-item{
   margin: 5px 5px 0;
   font-family: 'Acme', sans-serif;
 }
 .nav-bg{
-  background-color: #bb1542;
+  background-color: #daf1f9;
   font-size: 20px;
 }
 .navbar-light .navbar-nav .nav-link{
@@ -23,18 +52,27 @@
   color:white;
 }
 
-
 .img-profile{
   width: 12rem;
   height: 12rem;
-  margin-top:10px; 
-  margin: 0 auto 0;
+  margin-top:10px;
+  margin: 30% auto 0;
   display: block;
 }
 .profile-para{
-  margin-top:10px;
+  margin-top:25px;
   color:white;
   font-size: 17px;
   font-family: 'Merienda', cursive;
   font-weight: bold;
 }
+.container-fluid{
+  margin: 4rem auto 0;
+  display: block;
+}
+.interest, .project, .courses, .presentations, .workshops {
+  display: none;
+}
+.btn:hover{
+   background-color: #bb1542;
+ }
